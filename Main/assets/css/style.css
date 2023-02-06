@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+h1{
+    font-size: 200%;
+}
+
+header{
+    display: flex;
+    background-color: tan;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+   
+}
+
+.bannerClass{
+    /* width: 100%; */
+    height: 90px;
+    position: relative;
+    
+    /* background-color: black; */
+}
+.bannerClass img{
+    width: 100%;
+    height: 90px;
+    
+}
+
+.bannerClassPara{
+    width: 225px;
+    height: 25px;
+    background-color: #FFFAF0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 20px;
+    right: 0px;
+}
+
+
+
+.h1_class{
+    /* display: flex;
+    justify-content: flex-start; */
+    background-color: #FFFAF0;
+    width: 275px;
+    height: 50px;
+    
+}
+
+.headerClass{
+
+    display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+
+.headerClass nav a:hover {
+    background-color: white;
+    height: 50%;
+}
+
+.projectBoxContainer1{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #66FFFF;
+    padding: 0px;
+    margin: 0px;
+    background-color: wheat;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+
+}
+
+.projectBoxContainer2{
+    width: 125px;
+    height: 50px;
+    border: 2px solid #66FFFF;
+    padding: 0px;
+    margin: 10px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 1px;
+
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+header ul li{
+    padding: 0px 15px 0px 0px;
+}
+
+.profilePic{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    display: flex;
+}
+
+.footerArea{
+background-color: tan;
+text-align: center;
+display: flex;
+flex: 1;
+}
+
+body{
+    background-color: gray;
+}
+.aboutMeSection{
+    /* text-align: center; */
+
+}
+.aboutMeSection p{
+    /* text-align: center; */
+    padding-left: 15px;
+
+}
+.sectionContainer1{
+    display: flex;
+}
+
+aside{
+    width: 25%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-right-style: solid;
+    padding-bottom: 20px;
+    /* display through padding -> w3school */
+}
+
+aside h2{
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.WorkContainerParent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.workClass1{
+    width: 700px;
+    border: 2px solid tan;
+    padding: 0px;
+    margin: 10px;
+    position: relative;
+}
+
+.workClass1 img{
+    width: 700px;
+    height: 200px;
+}
+
+
+.workClass2{
+    width: 340px;
+    border: 2px solid tan;
+    padding: 0px;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.workClass2 img{
+    width: 340px;
+    height: 100px;
+    display: inline-flex;
+}
+
+.workClass1:hover{
+    border-color: aqua;
+   
+}
+.workClass2:hover{
+    border-color: aqua;
+   
+}
+
+
+.sectionDivContainer_2, .sectionDivContainer_3, .highlight1{
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+    position: relative;
+    flex: 1;
+
+}
+
+ .sectionDivContainer_3:hover{
+    background-color: aqua;
+    
+ }
+
+ 
+
+.sectionDivContainer_2 div{
+    display: flex;
+    height: 75px; 
+    /* flex-wrap: wrap; */
+    flex: 1;
+
+}
+
+.sectionDivContainer_2 img{
+    height: 70px;
+    width: 350px;
+
+}
+
+
+
+.footerAreaParent{
+    display: flex;
+}
+footer {
+    display: inline-flex;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+footer nav {
+    display: inline-flex;
+    align-content: space-between;
+    gap: 90px;
+    font-weight: bold;
+    color: black;
+}
+
+footer nav a:hover {
+    background-color: white;
+    height: 50%;
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+  aside {
+    width: 10%;
+  }
+  /* Change the header color */
+  header {
+    background: lightskyblue;
+  }
+
+  .workClass1:hover{
+    border-color: black;
+  }
+
+  .workClass2:hover{
+    border-color: black;
+  }
+  .footerArea{
+    background: lightskyblue;
+  }
+
+}
+
+/* Cards are split into two columns at 768px or smaller */
+@media screen and (max-width: 768px) {
+  aside {
+    display: none;
+  }
+  /* Change the header color */
+  header {
+    /* background: #772014; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+  }
+  header h1{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: smaller;
+  }
+  header li a{
+    color: white;
+  }
+
+  .headerClass nav a:hover {
+    background-color: black;
+    }
+
+  .profilePic{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutMeSection p{
+    font-size: smaller;
+  }
+
+  .workClass2 div img{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .workClass1{
+    width: 350px;
+    /* border: 2px solid tan; */
+    padding: 0px;
+    margin: 5px;
+    position: relative;
+}
+
+.workClass1 img{
+    width: 500px;
+    height: 200px;
+}
+
+.workClass2{
+    width: 170px;
+    /* border: 2px solid tan; */
+    padding: 0px;
+    margin: 5px;
+    position: relative;
+    
+    
+}
+
+.workClass2 img{
+    width: 400px;
+    height: 100px;
+}
+.WorkContainerParent{
+    width: 350;
+    display: flex;
+    justify-content: center;
+}
+.footerArea{
+    background: darkblue;
+    
+  }
+  .footerArea a{
+    color: white;
+    
+  }
+  .footerArea nav a:hover {
+    background-color: black;
+    }
+  
+
+
+}
