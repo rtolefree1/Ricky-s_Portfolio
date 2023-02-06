@@ -12,7 +12,7 @@ With these points in mind, in this Challenge I am applying the core skills I hav
 
 **Note:** Locations that I do not have enough web applications to showcase at this point, I will use placeholder images and names. I will change them to real applications as you create them later in the course.
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+Let’s take a look at what a user story written from the perspective of a hiring manager might look like. In my first Challenge, we follow the AS AN / I WANT / SO THAT format. 
 
 
 ## User Story
