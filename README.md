@@ -58,7 +58,7 @@ The different response settings:
 ![portfolio demo](./Assets/portfolioPicture2_v2.jpg)
 
 ## 3. 768px size
-![portfolio demo](./Assets/portfolioPicture3_v2.jpg)
+![portfolio demo](./Assets/portfolioPicture3_v3.jpg)
 
  
 ### Website Deployment
