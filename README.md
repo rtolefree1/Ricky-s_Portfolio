@@ -52,13 +52,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation shows the web application's appearance and functionality:
 The different response settings:
 ## 1. Normal size
-![portfolio demo](./Assets/portfolioPicture1.jpg)
+![portfolio demo](./Assets/portfolioPicture1_v2.jpg)
 
 ## 2. 992px size
-![portfolio demo](./Assets/portfolioPicture2.jpg)
+![portfolio demo](./Assets/portfolioPicture2_v2.jpg)
 
 ## 3. 768px size
-![portfolio demo](./Assets/portfolioPicture3.jpg)
+![portfolio demo](./Assets/portfolioPicture3_v2.jpg)
 
  
 ### Website Deployment
