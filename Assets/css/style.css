@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --white: #ffffff;
+    --tan: #d2b48c;
+    --florWhite: #FFFAF0;
+    --Agua: #33FFFF;
+}
 body{
     margin: 0;
     
@@ -13,18 +19,19 @@ h1{
 
 header{
     display: flex;
-    background-color: tan;
+    background-color: var(--tan);
+    /* background-color: tan; */
     height: 90px;
     justify-content: space-around;
     align-items: center;
     padding: 1%;
+    border-radius: 25px;
    
 }
 
 .bannerClass{
     height: 90px;
     position: relative;
-
 }
 .bannerClass img{
     width: 100%;
@@ -35,21 +42,24 @@ header{
 .bannerClassPara{
     width: 225px;
     height: 25px;
-    background-color: #FFFAF0;
+    background-color: var(--florWhite);
+    /* background-color: #FFFAF0; */
     position: absolute;
     display: flex;
     justify-content: flex-end;
     top: 20px;
     right: 0px;
+    border-radius: 25px;
 }
 
 
 
 .h1_class{
-    background-color: #FFFAF0;
+    background-color: var(--florWhite);
+    /* background-color: #FFFAF0; */
     width: 275px;
     height: 50px;
-    
+    border-radius: 25px;
 }
 
 .headerClass{
@@ -116,7 +126,7 @@ div {
 }
 
 .contactArea{
-background-color: tan;
+background-color: var(--tan);
 text-align: center;
 display: flex;
 flex: 1;
@@ -157,7 +167,7 @@ aside h2{
 }
 .workClass1{
     width: 705px;
-    border: 2px solid tan;
+    border: 2px solid var(--tan);
     padding: 0px;
     margin: 10px;
     position: relative;
@@ -171,7 +181,7 @@ aside h2{
 
 .workClass2{
     width: 340px;
-    border: 2px solid tan;
+    border: 2px solid var(--tan);
     padding: 0px;
     margin: 10px;
     position: relative;
@@ -185,11 +195,11 @@ aside h2{
 }
 
 .workClass1:hover{
-    border-color: aqua;
+    border-color: var(--Agua);
    
 }
 .workClass2:hover{
-    border-color: aqua;
+    border-color: var(--Agua);
    
 }
 
@@ -202,7 +212,7 @@ aside h2{
 }
 
  .sectionDivContainer_3:hover{
-    background-color: aqua;
+    background-color: var(--Agua);
     
  }
 
